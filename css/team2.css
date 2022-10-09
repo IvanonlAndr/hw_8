@@ -1,0 +1,357 @@
+@media (max-width: 1760px) {
+  .box {
+    max-width: 1720px;
+  }
+  .container__team {
+    max-width: 1600px;
+  }
+  .team__inner {
+    width: 1564px;
+  }
+  .team__inner-img {
+    width: 355px;
+    height: 600px;
+  }
+}
+@media (max-width: 1635px) {
+  .box {
+    max-width: 1595px;
+  }
+  .container__team {
+    max-width: 1485px;
+  }
+  .team__inner {
+    width: 1495px;
+  }
+}
+@media (max-width: 1530px) {
+  .box {
+    max-width: 1490px;
+  }
+  .container__team {
+    max-width: 1385px;
+  }
+  .team__inner-img {
+    width: 325px;
+    height: 552px;
+  }
+  .team__inner {
+    width: 1385px;
+  }
+}
+@media (max-width: 1420px) {
+  .box {
+    max-width: 1380px;
+  }
+  .container__team {
+    max-width: 1285px;
+  }
+  .team__inner {
+    width: 1315px;
+  }
+  .team__inner-img {
+    width: 290px;
+    height: 447px;
+  }
+}
+@media (max-width: 1370px) {
+  .box {
+    max-width: 1330px;
+  }
+  .container__team {
+    max-width: 1236px;
+  }
+  .team__inner {
+    width: 1235px;
+  }
+}
+@media (max-width: 1280px) {
+  .box {
+    max-width: 1240px;
+  }
+  .container__team {
+    max-width: 1150px;
+  }
+  .team h1 {
+    font-size: 75px;
+  }
+  .team__inner-img {
+    width: 265px;
+    height: 411px;
+  }
+  .team__inner {
+    width: 1146px;
+  }
+}
+@media (max-width: 1190px) {
+  .box {
+    max-width: 1150px;
+  }
+  .container__team {
+    max-width: 1070px;
+  }
+  .header__inner-menu {
+    width: 0;
+  }
+  .header img {
+    z-index: 20000;
+  }
+  .header__menu-btn {
+    display: block;
+    width: 35px;
+    height: 25px;
+    border: none;
+    top: 27px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    right: 55px;
+    border-top: 2px solid #FFFCFC;
+    border-bottom: 2px solid #FFFCFC;
+    position: relative;
+    z-index: 2000;
+    transition: all 0.9s;
+  }
+  .header__menu-btn::after {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #FFFCFC;
+    right: 0;
+    top: 9px;
+    transition: all 0.4s, width 0.5s;
+  }
+  .header__inner-items {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: -50%;
+    transform: translateY(-1000%);
+    display: flex;
+    height: 63px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .header__menu-btn_close {
+    position: relative;
+    right: 0px;
+    bottom: 0;
+    width: 32px;
+    right: 55px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    z-index: 20000;
+  }
+  .header__menu-btn_close:before, .header__menu-btn_close:after {
+    position: absolute;
+    left: 0;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: #FFFCFC;
+  }
+  .header__menu-btn_close:before {
+    transform: rotate(45deg);
+    transition: all 0.5s;
+  }
+  .header__menu-btn_close:after {
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+    top: 0;
+  }
+  .header .header__inner-items,
+.header input[type=checkbox] {
+    opacity: 0;
+  }
+  .header__inner-item {
+    margin-bottom: 16px;
+  }
+  .header input[type=checkbox]:checked ~ .header__inner-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .header__inner-items.header__inner-items-active {
+    opacity: 1;
+    max-width: 1150px;
+    height: 550px;
+    background: #000;
+    z-index: 2000;
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
+  .team h1 {
+    font-size: 65px;
+  }
+  .team__inner-img {
+    width: 400px;
+    height: 522px;
+    margin-bottom: 16px;
+    background-position: 0 0;
+  }
+  .team__inner {
+    width: 860px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  .box {
+    max-width: 860px;
+  }
+  .container__team {
+    max-width: 800px;
+  }
+  .team h1 {
+    font-size: 55px;
+  }
+  .team__inner {
+    width: 750px;
+  }
+  .team__inner-img {
+    width: 360px;
+    height: 470px;
+  }
+}
+@media (max-width: 780px) {
+  .box {
+    max-width: 740px;
+  }
+  .container__team {
+    max-width: 688px;
+  }
+  .team h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .team__inner-img {
+    width: 320px;
+    height: 418px;
+  }
+  .team__inner {
+    width: 660px;
+  }
+}
+@media (max-width: 700px) {
+  .box {
+    max-width: 660px;
+  }
+  .container__team {
+    max-width: 615px;
+  }
+  .team h1 {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .team__inner {
+    width: 620px;
+  }
+  .team__inner-img {
+    width: 300px;
+    height: 392px;
+  }
+}
+@media (max-width: 650px) {
+  .box {
+    max-width: 610px;
+  }
+  .container__team {
+    max-width: 567px;
+  }
+  .team__inner {
+    width: 565px;
+  }
+  .team__inner-img {
+    width: 275px;
+    height: 392px;
+  }
+}
+@media (max-width: 590px) {
+  .box {
+    max-width: 540px;
+  }
+  .container__team {
+    max-width: 500px;
+  }
+  .team__inner {
+    width: 480px;
+  }
+  .team__inner-img {
+    width: 480px;
+    height: 575px;
+    background-position: center center;
+  }
+}
+@media (max-width: 510px) {
+  .box {
+    max-width: 470px;
+  }
+  .container__team {
+    max-width: 440px;
+  }
+  .team h1 {
+    font-size: 60px;
+  }
+  .team__inner {
+    width: 420px;
+  }
+  .team__inner-img {
+    width: 420px;
+    height: 505px;
+  }
+}
+@media (max-width: 450px) {
+  .box {
+    max-width: 410px;
+  }
+  .container__team {
+    max-width: 380px;
+  }
+  .team__inner {
+    width: 380px;
+  }
+  .team__inner-img {
+    width: 380px;
+    height: 454px;
+  }
+  .team h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 410px) {
+  .box {
+    max-width: 375px;
+  }
+  .container__team {
+    max-width: 350px;
+  }
+  .team h1 {
+    font-size: 40px;
+    line-height: 65px;
+  }
+  .team__inner {
+    width: 300px;
+  }
+  .team__inner-img {
+    width: 300px;
+    height: 358px;
+  }
+}
+@media (max-width: 400px) {
+  .header .header__menu-btn {
+    right: 60px;
+  }
+}/*# sourceMappingURL=team2.css.map */

@@ -1,0 +1,469 @@
+@media (max-width: 1715px) {
+  .box {
+    max-width: 1675px;
+  }
+  .container__services {
+    max-width: 1510px;
+  }
+  .services__inner-left {
+    width: 690px;
+  }
+}
+@media (max-width: 1550px) {
+  .box {
+    max-width: 1510px;
+  }
+  .container__services {
+    max-width: 1359px;
+  }
+  .services__hairstyling {
+    width: 300px;
+    height: 300px;
+  }
+  .services__trimmingbeard {
+    width: 300px;
+    height: 300px;
+  }
+  .services__shavesmooth {
+    width: 300px;
+    height: 300px;
+  }
+  .services__straingteninghair {
+    width: 300px;
+    height: 300px;
+  }
+  .services__inner-left {
+    width: 600px;
+  }
+  .services__inner-right {
+    width: 785px;
+    height: 910px;
+  }
+}
+@media (max-width: 1350px) {
+  .box {
+    max-width: 1310px;
+  }
+  .container__services {
+    max-width: 1180px;
+  }
+  .services {
+    padding-top: 40px;
+  }
+  .services__inner-left {
+    width: 585px;
+  }
+  .services__hairstyling {
+    width: 300px;
+    height: 300px;
+  }
+  .services__trimmingbeard {
+    width: 300px;
+    height: 300px;
+  }
+  .services__shavesmooth {
+    width: 300px;
+    height: 300px;
+  }
+  .services__straingteninghair {
+    width: 300px;
+    height: 300px;
+  }
+  .services__inner-right {
+    width: 866px;
+    height: 1200px;
+  }
+}
+@media (max-width: 1210px) {
+  .box {
+    max-width: 1150px;
+  }
+  .container__services {
+    max-width: 1035px;
+  }
+  .header__inner-menu {
+    width: 0;
+  }
+  .header img {
+    z-index: 20000;
+  }
+  .header__menu-btn {
+    display: block;
+    width: 35px;
+    height: 25px;
+    border: none;
+    top: 27px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    right: 55px;
+    border-top: 2px solid #FFFCFC;
+    border-bottom: 2px solid #FFFCFC;
+    position: relative;
+    z-index: 2000;
+    transition: all 0.9s;
+  }
+  .header__menu-btn::after {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    background-color: #FFFCFC;
+    right: 0;
+    top: 9px;
+    transition: all 0.4s, width 0.5s;
+  }
+  .header__inner-items {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: -50%;
+    transform: translateY(-1000%);
+    display: flex;
+    height: 63px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .header__menu-btn_close {
+    position: relative;
+    right: 0px;
+    bottom: 0;
+    width: 32px;
+    right: 55px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    z-index: 20000;
+  }
+  .header__menu-btn_close:before, .header__menu-btn_close:after {
+    position: absolute;
+    left: 0;
+    content: " ";
+    height: 33px;
+    width: 2px;
+    background-color: #FFFCFC;
+  }
+  .header__menu-btn_close:before {
+    transform: rotate(45deg);
+    transition: all 0.5s;
+  }
+  .header__menu-btn_close:after {
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+    top: 0;
+  }
+  .header .header__inner-items,
+.header input[type=checkbox] {
+    opacity: 0;
+  }
+  .header__inner-item {
+    margin-bottom: 16px;
+  }
+  .header__inner-item_3 {
+    margin-bottom: 16px;
+  }
+  .header input[type=checkbox]:checked ~ .header__inner-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header .header__inner-items.header__inner-items-active {
+    opacity: 1;
+    max-width: 1150px;
+    height: 550px;
+    background: #000;
+    z-index: 2000;
+    left: 50%;
+    transform: translate(-50%, 0px);
+  }
+  .services__inner-left {
+    display: flex;
+    justify-content: space-between;
+    width: 846px;
+    flex-wrap: wrap;
+  }
+  .services__inner-right {
+    width: 1035px;
+    height: 529px;
+    position: static;
+    margin: 0 auto;
+    background-position: 0 0;
+  }
+  .services__inner-left {
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    width: 1035px;
+  }
+  .services__inner {
+    flex-direction: column-reverse;
+  }
+  .services__hairstyling {
+    width: 275px;
+    height: 276px;
+  }
+  .services__trimmingbeard {
+    width: 275px;
+    height: 276px;
+  }
+  .services__shavesmooth {
+    width: 275px;
+    height: 276px;
+  }
+  .services__straingteninghair {
+    width: 275px;
+    height: 276px;
+  }
+}
+@media (max-width: 1050px) {
+  .box {
+    max-width: 1010px;
+  }
+  .container__services {
+    max-width: 910px;
+  }
+  .services__inner-left {
+    width: 910px;
+  }
+  .services__hairstyling {
+    width: 245px;
+    height: 248px;
+  }
+  .services__trimmingbeard {
+    width: 245px;
+    height: 248px;
+  }
+  .services__shavesmooth {
+    width: 245px;
+    height: 248px;
+  }
+  .services__straingteninghair {
+    width: 245px;
+    height: 248px;
+  }
+  .services__inner-right {
+    width: 910px;
+    height: 465px;
+  }
+}
+@media (max-width: 920px) {
+  .box {
+    max-width: 880px;
+  }
+  .container__services {
+    max-width: 792px;
+  }
+  .services__inner-right {
+    width: 792px;
+    height: 410px;
+  }
+  .services__inner-left {
+    width: 792px;
+  }
+  .services__hairstyling {
+    width: 220px;
+    height: 224px;
+  }
+  .services__trimmingbeard {
+    width: 220px;
+    height: 224px;
+  }
+  .services__shavesmooth {
+    width: 220px;
+    height: 224px;
+  }
+  .services__straingteninghair {
+    width: 220px;
+    height: 224px;
+  }
+}
+@media (max-width: 800px) {
+  .box {
+    max-width: 760px;
+  }
+  .container__services {
+    max-width: 684px;
+  }
+  .services__inner-right {
+    width: 684px;
+    height: 356px;
+  }
+  .services__inner-left {
+    width: 684px;
+  }
+  .services__inner-left {
+    display: flex;
+    justify-content: space-between;
+    width: 684px;
+    flex-wrap: wrap;
+  }
+  .services__hairstyling {
+    width: 340px;
+    height: 340px;
+  }
+  .services__trimmingbeard {
+    width: 340px;
+    height: 340px;
+  }
+  .services__shavesmooth {
+    width: 340px;
+    height: 340px;
+  }
+  .services__straingteninghair {
+    width: 340px;
+    height: 340px;
+  }
+}
+@media (max-width: 710px) {
+  .box {
+    max-width: 670px;
+  }
+  .container__services {
+    max-width: 605px;
+  }
+  .services__hairstyling {
+    width: 300px;
+    height: 300px;
+  }
+  .services__trimmingbeard {
+    width: 300px;
+    height: 300px;
+  }
+  .services__shavesmooth {
+    width: 300px;
+    height: 300px;
+  }
+  .services__straingteninghair {
+    width: 300px;
+    height: 300px;
+  }
+  .services__inner-left {
+    width: 605px;
+  }
+  .services__inner-right {
+    width: 605px;
+    height: 316px;
+  }
+}
+@media (max-width: 630px) {
+  .box {
+    max-width: 590px;
+  }
+  .container__services {
+    max-width: 530px;
+  }
+  .services__inner-right {
+    width: 530px;
+    height: 246px;
+  }
+  .services__hairstyling {
+    width: 255px;
+    height: 255px;
+  }
+  .services__trimmingbeard {
+    width: 255px;
+    height: 255px;
+  }
+  .services__shavesmooth {
+    width: 255px;
+    height: 255px;
+  }
+  .services__straingteninghair {
+    width: 255px;
+    height: 255px;
+  }
+  .services__inner-left {
+    width: 530px;
+  }
+}
+@media (max-width: 540px) {
+  .box {
+    max-width: 500px;
+  }
+  .container__services {
+    max-width: 450px;
+  }
+  .services__inner-right {
+    width: 450px;
+    height: 210px;
+  }
+  .services__inner-left {
+    width: 450px;
+  }
+  .services__hairstyling {
+    width: 220px;
+    height: 221px;
+  }
+  .services__trimmingbeard {
+    width: 220px;
+    height: 221px;
+  }
+  .services__shavesmooth {
+    width: 220px;
+    height: 221px;
+  }
+  .services__straingteninghair {
+    width: 220px;
+    height: 221px;
+  }
+}
+@media (max-width: 450px) {
+  .box {
+    max-width: 410px;
+  }
+  .container__services {
+    max-width: 370px;
+  }
+  .services__inner-right {
+    width: 370px;
+    height: 370px;
+    background-position: center;
+  }
+  .services__inner-left {
+    width: 370px;
+    justify-content: center;
+  }
+  .services__hairstyling {
+    width: 300px;
+    height: 300px;
+  }
+  .services__trimmingbeard {
+    width: 300px;
+    height: 300px;
+  }
+  .services__shavesmooth {
+    width: 300px;
+    height: 300px;
+  }
+  .services__straingteninghair {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .box {
+    max-width: 375px;
+  }
+  .container__services {
+    max-width: 340px;
+  }
+  .header .header__menu-btn {
+    right: 60px;
+  }
+  .services__inner-right {
+    width: 320px;
+  }
+  .services__inner-left {
+    width: 320px;
+  }
+}/*# sourceMappingURL=services2.css.map */

@@ -1,0 +1,154 @@
+$w: #FFFCFC;
+$b: #000;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $w;
+}
+
+// .footer a {
+//     color: $w;
+// }
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.box {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Rosario', sans-serif;
+    background-color: $w;
+    // font-family: 'Josefin Sans', sans-serif;
+    // padding: 0 20px;
+}
+
+.container__services {
+    margin: 0 auto;
+    max-width: 1720px;
+}
+
+.header {
+    height: 80px;
+    background-color: $b;
+    position: relative;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+
+    }
+
+    img {
+        position: absolute;
+        left: 0;
+    }
+
+    &__inner-menu {
+        width: 902px;
+
+    }
+
+    &__inner-item {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    &__inner-item:nth-child(3) {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__inner-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+
+    &__inner-item {}
+}
+
+.services {
+    padding-top: 91px;
+    position: relative;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__inner-left {
+        display: flex;
+        justify-content: space-between;
+        width: 846px;
+        flex-wrap: wrap;
+    }
+
+    &__hairstyling {
+        background-image: url(../img/hairstyling.png);
+        width: 340px;
+        height: 340px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    &__trimmingbeard {
+        background-image: url(../img/trimmingbeard.png);
+        width: 340px;
+        height: 340px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    &__shavesmooth {
+        background-image: url(../img/shavesmooth.png);
+        width: 340px;
+        height: 340px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    &__straingteninghair {
+        background-image: url(../img/straingteninghair.png);
+        width: 340px;
+        height: 340px;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    &__inner-right {
+        background-image: url(../img/services-right.png);
+        width: 866px;
+        height: 1000px;
+        background-size: cover;
+        background-position: center center;
+        position: absolute;
+        right: 0;
+        top:0;  
+    }
+}

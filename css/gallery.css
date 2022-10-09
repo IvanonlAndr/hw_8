@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFCFC;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.box {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Rosario", sans-serif;
+  background-color: #FFFCFC;
+}
+
+.container__gallery {
+  margin: 0 auto;
+  max-width: 1770px;
+}
+
+.header {
+  height: 80px;
+  background-color: #000;
+  position: relative;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+.header img {
+  position: absolute;
+  left: 0;
+}
+.header__inner-menu {
+  width: 902px;
+}
+.header__inner-item:nth-child(2) {
+  font-size: 24px;
+  line-height: 29px;
+}
+.header__inner-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+.header__inner-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.gallery {
+  padding-top: 90px;
+}
+.gallery__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery__photo {
+  width: 370px;
+  height: 583px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.gallery__photo:nth-child(1) {
+  background-image: url(../img/img-1.png);
+}
+.gallery__photo-2 {
+  background-image: url(../img/img-2.png);
+  width: 370px;
+  height: 583px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 20px;
+}
+.gallery__img-inner {
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 76px;
+}
+.gallery__inner-photo {
+  width: 465px;
+  height: 410px;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+.gallery__inner-photo:nth-child(1) {
+  background-image: url(../img/inner-img_1.png);
+}
+.gallery__inner-photo:nth-child(2) {
+  background-image: url(../img/inner-img_2.png);
+}
+.gallery__inner-photo:nth-child(3) {
+  background-image: url(../img/inner-img_3.png);
+  width: 465px;
+  height: 364px;
+}
+.gallery__inner-photo:nth-child(4) {
+  background-image: url(../img/inner-img_4.png);
+  width: 465px;
+  height: 364px;
+}/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,132 @@
+$w: #FFFCFC;
+$b: #000;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $w;
+}
+
+// .footer a {
+//     color: $w;
+// }
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.box {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Rosario', sans-serif;
+    background-color: $w;
+    // font-family: 'Josefin Sans', sans-serif;
+    // padding: 0 20px;
+}
+
+.container__team {
+    margin: 0 auto;
+    max-width: 1775px;
+}
+
+.header {
+    height: 80px;
+    background-color: $b;
+    position: relative;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+
+    }
+
+    img {
+        position: absolute;
+        left: 0;
+    }
+
+    &__inner-menu {
+        width: 902px;
+
+    }
+
+    &__inner-item {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    &__inner-item:nth-child(4) {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    &__inner-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+    }
+}
+
+.team {
+    padding-top: 55px;
+
+    h1 {
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 97px;
+        font-style: normal;
+        text-align: center;
+        margin-bottom: 72px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        width: 1741px;
+        margin-bottom: 101px;
+    }
+
+    &__inner-img  {
+        width: 400px;
+        height: 675px;
+        background-position: center center;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+    &__inner-img:nth-child(1) {
+        background-image: url(../img/team-img_1.png);
+    }
+    &__inner-img:nth-child(2) {
+        background-image: url(../img/team-img_2.png);
+    }
+    &__inner-img:nth-child(3) {
+        background-image: url(../img/team-img_3.png);
+    }
+    &__inner-img:nth-child(4) {
+        background-image: url(../img/team-img_4.png);
+    }
+}
